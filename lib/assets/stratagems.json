@@ -1,0 +1,485 @@
+{
+    "backpacks": [
+        {
+            "stratagem": "LIFT-850 Jump Pack",
+            "input code": "▼ ▲ ▲ ▼ ▲",
+            "cooldown": "480 seconds (8m)",
+            "uses": "Unlimited",
+            "activation": "9.75 seconds"
+        },
+        {
+            "stratagem": "B-1 Supply Pack",
+            "input code": "▼ ◀ ▼ ▲ ▲ ▼",
+            "cooldown": "480 seconds (8m)",
+            "uses": "Unlimited",
+            "activation": "9.75 seconds"
+        },
+        {
+            "stratagem": "SH-20 Ballistic Shield Backpack",
+            "input code": "▼ ◀ ▼ ▼ ▲ ◀",
+            "cooldown": "300 seconds (5m)",
+            "uses": "Unlimited",
+            "activation": "9.75 seconds"
+        },
+        {
+            "stratagem": "SH-51 Directional Shield Backpack",
+            "input code": "▼ ▲ ◀ ▶ ▲ ▲",
+            "cooldown": "300 seconds (5m)",
+            "uses": "Unlimited",
+            "activation": "9.75 seconds"
+        },
+        {
+            "stratagem": "SH-32 Shield Generator Pack",
+            "input code": "▼ ▲ ◀ ▶ ◀ ▶",
+            "cooldown": "480 seconds (8m)",
+            "uses": "Unlimited",
+            "activation": "9.75 seconds"
+        },
+        {
+            "stratagem": "AX/AR-23 'Guard Dog'",
+            "input code": "▼ ▲ ◀ ▲ ▶ ▼",
+            "cooldown": "480 seconds (8m)",
+            "uses": "Unlimited",
+            "activation": "9.75 seconds"
+        },
+        {
+            "stratagem": "AX/LAS-5 'Guard Dog' Rover",
+            "input code": "▼ ▲ ◀ ▲ ▶ ▶",
+            "cooldown": "480 seconds (8m)",
+            "uses": "Unlimited",
+            "activation": "9.75 seconds"
+        },
+        {
+            "stratagem": "AX/TX-13 'Guard Dogl' Dog Breath",
+            "input code": "▼ ▲ ◀ ▲ ▶ ▲",
+            "cooldown": "480 seconds (8m)",
+            "uses": "Unlimited",
+            "activation": "9.75 seconds"
+        }
+    ],
+    "support weapons": [
+        {
+            "stratagem": "MG-43 Machine Gun",
+            "input code": "▼ ◀ ▼ ▲ ▶",
+            "cooldown": "480 seconds (8m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "APW-1 Anti-Materiel Rifle",
+            "input code": "▼ ◀ ▶ ▲ ▼",
+            "cooldown": "480 seconds (8m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "M-105 Stalwart",
+            "input code": "▼ ◀ ▼ ▲ ▲ ◀",
+            "cooldown": "480 seconds (8m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "EAT-17 Expendable Anti-tank",
+            "input code": "▼ ▼ ◀ ▲ ▶",
+            "cooldown": "70 seconds (1m 10s)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "MLS-4X Commando",
+            "input code": "▼ ◀ ▲ ▼ ▶",
+            "cooldown": "120 seconds (2m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "GR-8 Recoilless Rifle",
+            "input code": "▼ ◀ ▶ ▶ ◀",
+            "cooldown": "480 seconds (8m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "FLAM-40 Flamethrower",
+            "input code": "▼ ◀ ▲ ▼ ▲",
+            "cooldown": "480 seconds (8m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "AC-8 Autocannon",
+            "input code": "▼ ◀ ▼ ▲ ▲ ▶",
+            "cooldown": "480 seconds (8m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "MG-206 Heavy Machine Gun",
+            "input code": "▼ ◀ ▲ ▼ ▼",
+            "cooldown": "480 seconds (8m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "RS-422 Railgun",
+            "input code": "▼ ▶ ▼ ▲ ◀ ▶",
+            "cooldown": "480 seconds (8m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "FAF-14 Spear Launcher",
+            "input code": "▼ ▼ ▲ ▼ ▼",
+            "cooldown": "480 seconds (8m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "GL-21 Grenade Launcher",
+            "input code": "▼ ◀ ▲ ◀ ▼",
+            "cooldown": "480 seconds (8m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "LAS-98 Laser Cannon",
+            "input code": "▼ ◀ ▼ ▲ ◀",
+            "cooldown": "480 seconds (8m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "ARC-3 Arc Thrower",
+            "input code": "▼ ▶ ▼ ▲ ◀ ◀",
+            "cooldown": "480 seconds (8m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "LAS-99 Quasar Cannon",
+            "input code": "▼ ▼ ▲ ◀ ▶",
+            "cooldown": "480 seconds (8m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "RL-77 Airburst Rocket Launcher",
+            "input code": "▼ ▲ ▲ ◀ ▶",
+            "cooldown": "480 seconds (8m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        }
+    ],
+    "vehicles": [
+        {
+            "stratagem": "EXO-45 Patriot Exosuit",
+            "input code": "◀ ▼ ▶ ▲ ◀ ▼ ▼",
+            "cooldown": "600 seconds (10m)",
+            "uses": "2",
+            "activation": "10.5 seconds"
+        },
+        {
+            "stratagem": "EXO-49 Emancipator Exosuit",
+            "input code": "◀ ▼ ▶ ▲ ◀ ▼ ▲",
+            "cooldown": "600 seconds (10m)",
+            "uses": "2",
+            "activation": "10.5 seconds"
+        }
+    ],
+    "mission specific": [
+        {
+            "stratagem": "Reinforce",
+            "input code": "▲ ▼ ▶ ◀ ▲",
+            "cooldown": "120s (2m) (when depleted)",
+            "uses": "5 per Person",
+            "activation": "5 seconds"
+        },
+        {
+            "stratagem": "SOS Beacon",
+            "input code": "▲ ▼ ▶ ▲",
+            "cooldown": "N/A",
+            "uses": "1",
+            "activation": "5 seconds"
+        },
+        {
+            "stratagem": "Resupply",
+            "input code": "▼ ▼ ▲ ▶",
+            "cooldown": "160 seconds (2m 40s)",
+            "uses": "Unlimited",
+            "activation": "12 seconds"
+        },
+        {
+            "stratagem": "NUX-223 Hellbomb",
+            "input code": "▼ ▲ ◀ ▼ ▲ ▶ ▼ ▲",
+            "cooldown": "N/A",
+            "uses": "Unlimited",
+            "activation": "N/A"
+        },
+        {
+            "stratagem": "SSSD Delivery",
+            "input code": "▼ ▼ ▼ ▲ ▲",
+            "cooldown": "N/A",
+            "uses": "Unlimited",
+            "activation": "N/A"
+        },
+        {
+            "stratagem": "Seismic Probe",
+            "input code": "▲ ▲ ◀ ▶ ▼ ▼",
+            "cooldown": "N/A",
+            "uses": "1",
+            "activation": "9 seconds"
+        },
+        {
+            "stratagem": "Upload Data",
+            "input code": "◀ ▶ ▲ ▲ ▲",
+            "cooldown": "N/A",
+            "uses": "Unlimited",
+            "activation": "N/A"
+        },
+        {
+            "stratagem": "Eagle Rearm",
+            "input code": "▲ ▲ ◀ ▲ ▶",
+            "cooldown": "2 minutes (rearms all Eagle stratagems)",
+            "uses": "Unlimited",
+            "activation": "N/A"
+        },
+        {
+            "stratagem": "SEAF Artillery",
+            "input code": "▶ ▲ ▲ ▼",
+            "cooldown": "N/A",
+            "uses": "5",
+            "activation": "N/A"
+        },
+        {
+            "stratagem": "Super Earth Flag",
+            "input code": "▼ ▲ ▼ ▲",
+            "cooldown": "N/A",
+            "uses": "N/A",
+            "activation": "N/A"
+        }
+    ],
+    "defensive": [
+        {
+            "stratagem": "E/MG-101 HMG Emplacement",
+            "input code": "▼ ▲ ◀ ▶ ▶ ◀",
+            "cooldown": "180 seconds (3m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "FX-12 Shield Generator Relay",
+            "input code": "▼ ▼ ◀ ▶ ◀ ▶",
+            "cooldown": "90 seconds (1m 30s)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "A/ARC-3 Tesla Tower",
+            "input code": "▼ ▲ ▶ ▲ ◀ ▶",
+            "cooldown": "150 seconds (2m 30s)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "MD-6 Anti-Personnel Minefield",
+            "input code": "▼ ◀ ▲ ▶",
+            "cooldown": "180 seconds (3m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "MD-I4 Incendiary Mines",
+            "input code": "▼ ◀ ◀ ▼",
+            "cooldown": "180 seconds (3m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "MD-17 Anti-Tank Mines",
+            "input code": "▼ ◀ ▲ ▲",
+            "cooldown": "180 seconds (3m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "A/MG-43 Machine Gun Sentry",
+            "input code": "▼ ▲ ▶ ▶ ▲",
+            "cooldown": "120 seconds (2m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "A/G-16 Gatling Sentry",
+            "input code": "▼ ▲ ▶ ◀",
+            "cooldown": "180 seconds (3m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "A/M-12 Mortar Sentry",
+            "input code": "▼ ▲ ▶ ▶ ▼",
+            "cooldown": "180 seconds (3m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "A/AC-8 Autocannon Sentry",
+            "input code": "▼ ▲ ▶ ▲ ◀ ▲",
+            "cooldown": "180 seconds (3m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "A/MLS-4X Rocket Sentry",
+            "input code": "▼ ▲ ▶ ▶ ◀",
+            "cooldown": "180 seconds (3m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        },
+        {
+            "stratagem": "A/M-23 EMS Mortar Sentry",
+            "input code": "▼ ▲ ▶ ▼ ▶",
+            "cooldown": "180 seconds (3m)",
+            "uses": "Unlimited",
+            "activation": "4.75 seconds"
+        }
+    ],
+    "orbital strikes": [
+        {
+            "stratagem": "Orbital Gatling Barrage",
+            "input code": "▶ ▼ ◀ ▲ ▲",
+            "cooldown": "70 seconds (1m 10s)",
+            "uses": "Unlimited",
+            "activation": "2.05 seconds"
+        },
+        {
+            "stratagem": "Orbital Airburst Strike",
+            "input code": "▶ ▶ ▶",
+            "cooldown": "100 seconds (1m 40s)",
+            "uses": "Unlimited",
+            "activation": "3.45 seconds"
+        },
+        {
+            "stratagem": "Orbital 120MM HE Barrage",
+            "input code": "▶ ▶ ▶ ▼ ◀ ▶ ▼",
+            "cooldown": "180 seconds (3m)",
+            "uses": "Unlimited",
+            "activation": "6.45 seconds"
+        },
+        {
+            "stratagem": "Orbital 380MM HE Barrage",
+            "input code": "▶ ▼ ▲ ▲ ◀ ▼ ▼",
+            "cooldown": "240 seconds (4m)",
+            "uses": "Unlimited",
+            "activation": "7.45 seconds"
+        },
+        {
+            "stratagem": "Orbital Walking Barrage",
+            "input code": "▶ ▼ ▶ ▼ ▶ ▼",
+            "cooldown": "240 seconds (4m)",
+            "uses": "Unlimited",
+            "activation": "4.45 seconds"
+        },
+        {
+            "stratagem": "Orbital Laser",
+            "input code": "▶ ▼ ▲ ▶ ▼",
+            "cooldown": "300 seconds (5m)",
+            "uses": "3",
+            "activation": "1 second"
+        },
+        {
+            "stratagem": "Orbital Railcannon Strike",
+            "input code": "▶ ▲ ▼ ▼ ▶",
+            "cooldown": "210 seconds (3m 30s)",
+            "uses": "Unlimited",
+            "activation": "0 seconds"
+        },
+        {
+            "stratagem": "Orbital Precision Strike",
+            "input code": "▶ ▶ ▲",
+            "cooldown": "100 seconds (1m 40s)",
+            "uses": "Unlimited",
+            "activation": "3 seconds"
+        },
+        {
+            "stratagem": "Orbital Gas Strike",
+            "input code": "▶ ▶ ▼ ▶",
+            "cooldown": "75 seconds (1m 15s)",
+            "uses": "Unlimited",
+            "activation": "3.45 seconds"
+        },
+        {
+            "stratagem": "Orbital EMS Strike",
+            "input code": "▶ ▶ ◀ ▼",
+            "cooldown": "75 seconds (1m 15s)",
+            "uses": "Unlimited",
+            "activation": "3.45 seconds"
+        },
+        {
+            "stratagem": "Orbital Smoke Strike",
+            "input code": "▶ ▶ ▼ ▲",
+            "cooldown": "100 seconds (1m 40s)",
+            "uses": "Unlimited",
+            "activation": "3.45 seconds"
+        },
+        {
+            "stratagem": "Orbital Napalm Barrage",
+            "input code": "▶ ▶ ▼ ◀ ▶ ▲",
+            "cooldown": "?? seconds (??)",
+            "uses": "Unlimited",
+            "activation": "3.45 seconds"
+        }
+    ],
+    "eagles": [
+        {
+            "stratagem": "Eagle Strafing Run",
+            "input code": "▲ ▶ ▶",
+            "cooldown": "8 seconds",
+            "uses": "4",
+            "activation": "2.4 seconds"
+        },
+        {
+            "stratagem": "Eagle Airstrike",
+            "input code": "▲ ▶ ▼ ▶",
+            "cooldown": "8 seconds",
+            "uses": "2",
+            "activation": "4.1 seconds"
+        },
+        {
+            "stratagem": "Eagle Cluster Bomb",
+            "input code": "▲ ▶ ▼ ▼ ▶",
+            "cooldown": "8 seconds",
+            "uses": "4",
+            "activation": "4.35 seconds"
+        },
+        {
+            "stratagem": "Eagle Napalm Airstrike",
+            "input code": "▲ ▶ ▼ ▲",
+            "cooldown": "8 seconds",
+            "uses": "2",
+            "activation": "4.1 seconds"
+        },
+        {
+            "stratagem": "Eagle Smoke Strike",
+            "input code": "▲ ▶ ▲ ▼",
+            "cooldown": "8 seconds",
+            "uses": "2",
+            "activation": "4.4 seconds"
+        },
+        {
+            "stratagem": "Eagle 110MM Rocket Pods",
+            "input code": "▲ ▶ ▲ ◀",
+            "cooldown": "8 seconds",
+            "uses": "2",
+            "activation": "3.4 seconds"
+        },
+        {
+            "stratagem": "Eagle 500kg Bomb",
+            "input code": "▲ ▶ ▼ ▼ ▼",
+            "cooldown": "8 seconds",
+            "uses": "1",
+            "activation": "3.45 seconds"
+        }
+    ]
+}
