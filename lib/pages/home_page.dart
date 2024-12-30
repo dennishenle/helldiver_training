@@ -13,57 +13,57 @@ class HomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: Text(
-                'HELLDIVER TRAINING',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 64,
-                ),
-              ),
-            ),
+            _buildHeadline(),
             SizedBox(height: 40),
-            Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: MaterialButton(
-                child: Text(
-                  'start',
-                  style: TextStyle(
-                    color: Colors.greenAccent,
-                    fontSize: 32,
-                  ),
-                ),
-                onPressed: () => print("pressed start"),
-              ),
+            _buildButton(
+              text: 'start',
+              color: Colors.greenAccent,
+              onPressed: () => print("pressed start"),
             ),
-            Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: MaterialButton(
-                child: Text(
-                  'stratagem codes',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 32,
-                  ),
-                ),
-                onPressed: () => print("pressed"),
-              ),
+            _buildButton(
+              text: 'stratagem codes',
+              color: Colors.white,
+              onPressed: () => print("pressed"),
             ),
-            Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: MaterialButton(
-                child: Text(
-                  'exit',
-                  style: TextStyle(
-                    color: Colors.redAccent,
-                    fontSize: 32,
-                  ),
-                ),
-                onPressed: () => print("pressed"),
-              ),
-            ),
+            _buildButton(
+              text: 'exit',
+              color: Colors.redAccent,
+              onPressed: () => print('exit pressed'),
+            )
           ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildHeadline() {
+    return Padding(
+      padding: const EdgeInsets.all(16.0),
+      child: Text(
+        'HELLDIVER TRAINING',
+        style: TextStyle(
+          color: Colors.white,
+          fontSize: 64,
+        ),
+      ),
+    );
+  }
+
+  Widget _buildButton({
+    required String text,
+    required Color color,
+    required void Function() onPressed,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.all(16.0),
+      child: MaterialButton(
+        onPressed: onPressed,
+        child: Text(
+          text,
+          style: TextStyle(
+            color: color,
+            fontSize: 32,
+          ),
         ),
       ),
     );
