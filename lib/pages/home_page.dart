@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage({super.key, required this.title});
-  final String title;
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,22 +14,17 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             _buildHeadline(),
-            SizedBox(height: 40),
+            SizedBox(height: 60),
             _buildButton(
               text: 'start',
               color: Colors.greenAccent,
-              onPressed: () => print("pressed start"),
+              onPressed: () => context.go('/training'),
             ),
             _buildButton(
               text: 'stratagem codes',
               color: Colors.white,
-              onPressed: () => print("pressed"),
+              onPressed: () => context.go('/stratagems'),
             ),
-            _buildButton(
-              text: 'exit',
-              color: Colors.redAccent,
-              onPressed: () => print('exit pressed'),
-            )
           ],
         ),
       ),
