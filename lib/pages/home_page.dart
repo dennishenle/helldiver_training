@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:helldiver_training/assets/assets.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final backgroundColor = Color.fromARGB(255, 55, 55, 55);
     return Scaffold(
       backgroundColor: backgroundColor,
       body: Center(
@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             _buildHeadline(),
-            SizedBox(height: 60),
+            SizedBox(height: 50),
             _buildButton(
               text: 'start',
               color: Colors.greenAccent,
@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
             ),
             _buildButton(
               text: 'stratagem codes',
-              color: Colors.white,
+              color: Colors.orangeAccent,
               onPressed: () => context.go('/stratagems'),
             ),
           ],
@@ -52,12 +52,18 @@ class HomePage extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(16.0),
       child: MaterialButton(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(12.0), // Set border radius here
+        ),
         onPressed: onPressed,
-        child: Text(
-          text,
-          style: TextStyle(
-            color: color,
-            fontSize: 32,
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Text(
+            text,
+            style: TextStyle(
+              color: color,
+              fontSize: 32,
+            ),
           ),
         ),
       ),

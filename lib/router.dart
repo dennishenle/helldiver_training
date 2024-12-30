@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:helldiver_training/pages/pages.dart';
 
@@ -9,12 +8,12 @@ final homeRoute = GoRoute(
 
 final trainingRoute = GoRoute(
   path: '/training',
-  builder: (context, state) => const Text('training'),
+  builder: (context, state) => const TrainingPage(),
 );
 
 final stratagemsRoute = GoRoute(
   path: '/stratagems',
-  builder: (context, state) => const Text('stratagems'),
+  builder: (context, state) => const StratagemsPage(),
 );
 
 final router = GoRouter(
